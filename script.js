@@ -10,6 +10,41 @@ const projects = [
       <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
       <path d="M8 21h8M2 17h20v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"></path>
     </svg>`,
+    title: "Restaurants-API",
+    description:
+      "Restaurant management backend built with ASP.NET Core Web API. It provides RESTful APIs for authentication and authorization, restaurant management, dish management, and paginated/searchable listings with sorting support.",
+    technologies: [
+      ".NET 8",
+      "ASP.NET Core Web API",
+      "Entity Framework Core",
+      "MySQL",
+      "RESTful API",
+      "ASP.NET Core Identity",
+      "Role-Based Authorization",
+      "Policy-Based Authorization",
+      "Repository Pattern",
+      "FluentAssertions",
+      "FluentValidation",
+      "AutoMapper",
+      "Serilog",
+      "Swagger",
+      "MediatR",
+      "xUnit",
+      "CQRS",
+      "Moq",
+    ],
+    details:
+      "Designed with a clean layered architecture (API, Application, Domain, Infrastructure), it applies CQRS with MediatR, Repository pattern, FluentValidation, and AutoMapper to keep business logic maintainable and testable. The system uses ASP.NET Core Identity with role/policy-based authorization, Entity Framework Core with MySQL, centralized error handling middleware, and structured Serilog logging for production-ready observability.",
+    github: "https://github.com/Helmy-JR/Restaurants-API",
+  },
+  {
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+      viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      class="h-3 w-3 text-white">
+      <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+      <path d="M8 21h8M2 17h20v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"></path>
+    </svg>`,
     title: "Talabat API Clone",
     description:
       "A scalable e-commerce platform inspired by Talabat. Provides RESTful APIs for user authentication, product browsing, basket management, order processing, and secure online payments using Stripe.",
